@@ -1,2 +1,2 @@
 # journal
-a-generative-web journal - spring 2021
+a-generative-web - spring 2021
