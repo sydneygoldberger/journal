@@ -13,6 +13,7 @@ let entry1 = document.getElementById("entry1");
 let entry2 = document.getElementById("entry2");
 let entry3 = document.getElementById("entry3");
 let entry4 = document.getElementById("entry4");
+let entry5 = document.getElementById("entry5");
 let rainbowFollow = document.getElementById("rainbowFollow");
 let headerContainer = document.getElementById("headerContainer");
 let descriptionContainer = document.getElementById("descriptionContainer");
@@ -20,22 +21,13 @@ let thermalVision = document.getElementById("thermalVision");
 let nightVision = document.getElementById("nightVision");
 let resetButton = document.getElementById("resetButton");
 let x = document.getElementById("X");
+let theBody = document.getElementsByTagName("body")[0];
 
-headerContainer.onmousemove = function(e){
+theBody.onmouseover = function(e){
     x.style.top = e.clientY + "px";
     x.style.left = e.clientX + "px";
-    document.body.cursor.display= "none";
 }
 
-let clock = document.getElementById("clock");
-setInterval(function() {
-  let d = new Date();
-  let m = d.getMonth();
-  let day = d.getDate();
-  let year = d.getFullYear();
-  clock.textContent = (m) + ", " + (day) + ", " + (year);
-
-},1000);
 
 
 entry1.onmouseover = function(){
@@ -68,6 +60,14 @@ entry4.onmouseover = function(){
 
 entry4.onmouseleave = function(){
     entry4.style.backgroundColor = "#ddcba8";
+}
+
+entry5.onmouseover = function(){
+    entry5.style.backgroundColor = "#4d4dff";
+}
+
+entry5.onmouseleave = function(){
+    entry5.style.backgroundColor = "#ddcba8";
 }
 
 nightVision.onclick = function(){
