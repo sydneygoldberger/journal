@@ -9,6 +9,7 @@ let entry3 = document.getElementById("entry3");
 let entry4 = document.getElementById("entry4");
 let entry5 = document.getElementById("entry5");
 let entry6 = document.getElementById("entry6");
+let entry7 = document.getElementById("entry7");
 let rainbowFollow = document.getElementById("rainbowFollow");
 let headerContainer = document.getElementById("headerContainer");
 let descriptionContainer = document.getElementById("descriptionContainer");
@@ -62,6 +63,12 @@ entry6.onmouseover = function(){
 entry6.onmouseleave = function(){
     entry6.style.backgroundColor = "#ddcba8";
 }
+entry7.onmouseover = function(){
+    entry7.style.backgroundColor = "#99ccff";
+}
+entry7.onmouseleave = function(){
+    entry7.style.backgroundColor = "#ddcba8";
+}
 
 nightVision.onclick = function(){
     nightVision.style.color = "black";
@@ -81,6 +88,7 @@ nightVision.onclick = function(){
     entry4.style.backgroundColor = "black";
     entry5.style.backgroundColor = "black";
     entry6.style.backgroundColor = "black";
+    entry7.style.backgroundColor = "black";
 
     entry1.onmouseover = function(){
         entry1.style.backgroundColor = "#27b300";
@@ -118,6 +126,12 @@ nightVision.onclick = function(){
     entry6.onmouseleave = function(){
         entry6.style.backgroundColor = "black";
     }
+    entry7.onmouseover = function(){
+        entry7.style.backgroundColor = "#27b300";
+    }
+    entry7.onmouseleave = function(){
+        entry7.style.backgroundColor = "black";
+    }
     x.style.width = "150px";
     x.style.height = "150px";
     x.style.background = "#27b300"
@@ -141,6 +155,8 @@ resetButton.onclick = function(){
     entry4.style.backgroundColor = "#ddcba8";
     entry5.style.backgroundColor = "#ddcba8";
     entry6.style.backgroundColor = "#ddcba8";
+    entry7.style.backgroundColor = "#ddcba8";
+
 
     document.body.style.backgroundColor = "#ddcba8";
 
@@ -181,7 +197,12 @@ resetButton.onclick = function(){
     entry6.onmouseleave = function(){
         entry6.style.backgroundColor = "#ddcba8";
     }
-
+    entry7.onmouseover = function(){
+        entry7.style.backgroundColor = "#99ccff";
+    }
+    entry7.onmouseleave = function(){
+        entry7.style.backgroundColor = "#ddcba8";
+    }
     x.style.width = "150px";
     x.style.height = "150px";
     x.style.background = "#2f3ad6"
@@ -205,6 +226,7 @@ thermalVision.onclick = function(){
     entry4.style.backgroundColor = "#05006b";
     entry5.style.backgroundColor = "#05006b";
     entry6.style.backgroundColor = "#05006b";
+    entry7.style.backgroundColor = "#05006b";
 
     document.body.style.backgroundColor = "#05006b";
 
@@ -244,6 +266,12 @@ thermalVision.onclick = function(){
     }
     entry6.onmouseleave = function(){
         entry6.style.backgroundColor = "#130082";
+    }
+    entry7.onmouseover = function(){
+        entry7.style.backgroundColor = "#ff8400";
+    }
+    entry7.onmouseleave = function(){
+        entry7.style.backgroundColor = "#130082";
     }
 
     x.style.width = "150px";
