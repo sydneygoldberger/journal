@@ -175,6 +175,17 @@ body {
   border-radius: 3px;
 }
 
+#entry8 {
+  grid-area: 4 / 2 / 5 / 3;
+  border: white 1px solid;
+}
+
+#border8 {
+  border: 3px solid white;
+  padding: 0.8vw;
+  border-radius: 30px;
+}
+
 a {
   color: white;
   text-decoration: underline;
@@ -305,6 +316,9 @@ a {
   #entry7 {
     grid-area: 7 / 1 / 8 / 2;
   }
+  #entry8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 800px) {
@@ -409,6 +423,9 @@ a {
   #entry7 {
     grid-area: 7 / 1 / 8 / 2;
   }
+  #entry8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
   #border1 {
     padding: 1.5vw;
     border-width: 2px;
@@ -443,6 +460,11 @@ a {
     border-width: 2px;
     padding: 1.5vw;
     border-radius: 3px;
+  }
+  #border8 {
+    border-width: 2px;
+    padding: 1.5vw;
+    border-radius: 30px;
   }
 }
 
@@ -585,5 +607,13 @@ a {
     border-width: 1px;
     padding: 1.5vw;
     border-radius: 3px;
+  }
+  #entry8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+  #border8 {
+    border-width: 1px;
+    padding: 1.5vw;
+    border-radius: 30px;
   }
 }
