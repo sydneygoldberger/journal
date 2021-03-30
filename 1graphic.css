@@ -186,6 +186,17 @@ body {
   border-radius: 30px;
 }
 
+#entry9 {
+  grid-area: 5 / 1 / 6 / 2;
+  border: white 1px solid;
+}
+
+#border9 {
+  border: 3px solid white;
+  padding: 0.8vw;
+  border-radius: 90px;
+}
+
 a {
   color: white;
   text-decoration: underline;
@@ -319,6 +330,9 @@ a {
   #entry8 {
     grid-area: 8 / 1 / 9 / 2;
   }
+  #entry9 {
+    grid-area: 9 / 1 / 10 / 2;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 800px) {
@@ -426,6 +440,9 @@ a {
   #entry8 {
     grid-area: 8 / 1 / 9 / 2;
   }
+  #entry9 {
+    grid-area: 9 / 1 / 10 / 2;
+  }
   #border1 {
     padding: 1.5vw;
     border-width: 2px;
@@ -465,6 +482,11 @@ a {
     border-width: 2px;
     padding: 1.5vw;
     border-radius: 30px;
+  }
+  #border9 {
+    border-width: 2px;
+    padding: 1.5vw;
+    border-radius: 90px;
   }
 }
 
@@ -615,5 +637,13 @@ a {
     border-width: 1px;
     padding: 1.5vw;
     border-radius: 30px;
+  }
+  #entry9 {
+    grid-area: 9 / 1 / 10 / 2;
+  }
+  #border9 {
+    border-width: 1px;
+    padding: 1.5vw;
+    border-radius: 90px;
   }
 }
