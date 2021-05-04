@@ -240,6 +240,16 @@ body {
   padding: 0.8vw;
   border-radius: 15px;
 }
+#entry14 {
+  grid-area: 7 / 2 / 8 / 3;
+  border: white 1px solid;
+}
+
+#border14 {
+  border: 3px solid white;
+  padding: 0.8vw;
+  border-radius: 50px;
+}
 
 a {
   color: white;
@@ -389,6 +399,9 @@ a {
   #entry13 {
     grid-area: 13 / 1 / 14 / 2;
   }
+  #entry14 {
+    grid-area: 14 / 1 / 15 / 2;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 800px) {
@@ -511,6 +524,9 @@ a {
   #entry13 {
     grid-area: 13 / 1 / 14 / 2;
   }
+  #entry14 {
+    grid-area: 14 / 1 / 15 / 2;
+  }
   #border1 {
     padding: 1.5vw;
     border-width: 2px;
@@ -575,6 +591,11 @@ a {
     border-width: 2px;
     padding: 1.5vw;
     border-radius: 15px;
+  }
+  #border14 {
+    border-width: 2px;
+    padding: 1.5vw;
+    border-radius: 50px;
   }
 }
 
@@ -765,5 +786,13 @@ a {
     border-width: 1px;
     padding: 1.5vw;
     border-radius: 15px;
+  }
+  #entry14 {
+    grid-area: 14 / 1 / 15 / 2;
+  }
+  #border14 {
+    border-width: 1px;
+    padding: 1.5vw;
+    border-radius: 50px;
   }
 }
